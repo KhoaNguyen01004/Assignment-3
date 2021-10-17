@@ -11,7 +11,7 @@ public class BasicDoubleLinkedList_GFA_Test {
 
 	@Before
 	public void setUp() {
-		linkedString = new BasicDoubleLinkedList<String>();
+		linkedString = new BasicDoubleLinkedList<>();
 		linkedString.addToEnd("Hello");
 	}
 
